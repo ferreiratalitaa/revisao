@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c3cfd9;
+
+}
+
+header {
+    background-color: #DFE6ED;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #4b5c6b;
+
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+    flex: 1;
+
+}
+
+.header-buttons {
+    display: flex;
+
+}
+
+.header-buttons button {
+    background-color: #4b5c6b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.header-buttons button:hover {
+    background-color: #4b5c6b;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+.main button {
+    background-color: #4b5c6b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+
+}
+
+.main button:hover {
+    background-color: #4b5c6b;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 20px 0;
+}
+
+.form-container input,
+.form-container textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-container textarea {
+    resize: vertical;
+
+}
+
+.message {
+    color: red;
+}
+
+.books-list {
+    margin-top: 20px;
+    width: 300px;
+}
+
+.books-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.books-list li {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
